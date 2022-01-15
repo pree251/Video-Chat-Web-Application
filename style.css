@@ -1,0 +1,141 @@
+#video-grid {
+    display: flex; 
+}
+
+#filter {
+    font-size: 18px;    
+}
+
+video {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    justify-content: center;
+    -webkit-transform: scaleX(-1); 
+    transform: scaleX(-1);
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+}
+
+.main_left {
+    flex: 0.9;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_right {
+    flex: 0.1;
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    border-left: 1px solid #3D3D42;
+}
+
+.main_header {
+    color: white;
+    text-align: center;
+}
+
+.main_chat_window {
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.main_message_container {
+    padding: 22px 12px;
+    display: flex;
+}
+
+.main_message_container input {
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.main_videos {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #632fcc , #b7a1e3);
+}
+
+.main_controls {
+    display: flex;
+    background-color: #1C1E20;
+    color: white;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.main_controls_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.main_controls_button span {
+    font-size: 16px;
+}
+
+.main_controls_button:hover {
+    border-radius: 5px;
+    color: black;
+    background-color: rgba(236, 206, 250, 0.897);
+}
+
+.main_controls_button i {
+    font-size: 22px;
+}
+
+.main_controls_block {
+    display: flex;
+}
+
+.button {
+    background-color:red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+.messages {
+    color: white;
+    list-style: none;
+}
+
+.mute, .play {
+    color: rgba(9, 185, 9, 0.747);
+}
+
+.unmute, .stop {
+    color:red;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}

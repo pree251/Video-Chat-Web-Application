@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video chat web application</title>
+    <link rel="stylesheet" href="style1.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=PT+Serif&display=swap" rel="stylesheet">
+    <!--Font Awesome icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" />
+    
+</head>
+
+<body>
+    
+    <p class="heading">You've left the meeting<p>
+    <span class="button"> <a href="room.ejs" style="color: white;">Rejoin meeting</a></span>
+    <span class="button"> <a href="index.html" style="color: white;">Return to homepage</a></span>
+    <div class="feedback">
+        <p>How was the audio and video quality?</p>
+    </div>
+    <div class="star-rating">
+        <div class="thanks-msg">Thank you for the feedback!</div>
+        <div class="star-input">
+            <input type="radio" name="rating" id="rating-5">
+            <label for="rating-5" class="fas fa-star"></label>
+            <input type="radio" name="rating" id="rating-4">
+            <label for="rating-4" class="fas fa-star"></label>
+            <input type="radio" name="rating" id="rating-3">
+            <label for="rating-3" class="fas fa-star"></label>
+            <input type="radio" name="rating" id="rating-2">
+            <label for="rating-2" class="fas fa-star"></label>
+            <input type="radio" name="rating" id="rating-1">
+            <label for="rating-1" class="fas fa-star"></label>
+
+            <!-- Rating Submit Form -->
+            <form>
+                <span class="rating-reaction"></span>
+                <button type="submit" class="submit-rating">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script>const btn = document.querySelector(".submit-rating");
+        const thanksmsg = document.querySelector(".thanks-msg");
+        const starRating = document.querySelector(".star-input");
+        // Success msg show/hide
+        btn.onclick = () => {
+            starRating.style.display = "none";
+            thanksmsg.style.display = "table";
+            return false; };
+    </script>
+
+</body>
+</html>

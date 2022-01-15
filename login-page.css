@@ -1,0 +1,80 @@
+  body {
+    font-family: 'PT Serif', serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(107, 10, 197), rgb(179, 135, 236));
+  }
+  
+  .header {
+    color: white;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  p {
+    color: black;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  #main-holder {
+    margin: 45px 0px;
+    height: 380px;
+    width: 550px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px white;
+  }
+  
+  #login-form {
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .login-form-field::placeholder {
+    color: black;
+  }
+  
+.login-form-field {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 60px;
+    border-radius: 3px;
+    outline: none;
+    padding: 0px 0px 5px 5px;
+  }
+  
+#login-form-submit {
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #8d34c9;
+    cursor: pointer;
+    outline: none;
+    font-size: 22px;
+  }
+
+.bottom-container {
+    width: 100%;
+    background-color: #c8c2f5;
+}
+
+.copyright {
+    font-size: 20px;
+}
+
+a:link {
+      text-decoration: none;
+  }
+
+  
