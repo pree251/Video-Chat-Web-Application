@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video chat web application</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
+    <!--Font Awesome icon library-->
+    <script src="https://kit.fontawesome.com/c639dd80d4.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script>
+        const ROOM_ID = "<%= roomId %>";
+    </script>
+</head>
+
+<body>
+    <div class="row h-10 w-100">
+
+        <!--Added filters-->
+
+        <select id="filter" class="w-100 bg-dark text-light ml-3 select font-weight-bold border">
+
+            <option value="none">Normal</option>
+
+            <option value="grayscale(100%)">B & W</option>
+
+            <option value="sepia(100%)">Old School</option>
+
+            <option value="contrast(150%)">Lumination</option>
+
+            <option value="blur(20px)">Hidden Mist</option>
+
+            <option value="invert(100%)">Dracula</option>
+
+            <option value="hue-rotate(180deg)">X-men Beast</option>
+
+            <option value="saturate(25)">Glitch effect</option>
+
+        </select>
+
+    </div>
+
+    <div class="main">
+        <div class="main_left">
+            <div class="main_videos">
+                <!--Creating a video grid in which our video elements can be added-->
+                <div id="video-grid">
+
+                </div>
+            </div>
+            <div class="main_controls">
+                <div class="main_controls_block">
+                    <div onclick="muteUnmute()" class="main_controls_button main_mute_button">
+                        <i class="mute fas fa-microphone"></i>
+                        <span>Mute</span>
+                    </div>
+                    <div onclick="playStop()" class="main_controls_button main_video_button">
+                        <i class="play fas fa-video"></i>
+                        <span>Stop Video</span>
+                    </div>
+                </div>
+                <div class="main_controls_block">
+                    <div id="start" class="main_controls_button start_recording">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Start Recording</span>
+                    </div>
+                    <div id="stop" class="main_controls_button stop_recording">
+                        <i class="fas fa-stop-circle"></i>
+                        <span>Stop Recording</span>
+                    </div>
+                    <div class="main_controls_button">
+                        <i class="fas fa-users"></i>
+                        <span>Participants</span>
+                    </div>
+                    <div onclick="showchat()" class="main_controls_button">
+                        <i class="fas fa-comment-alt"></i>
+                        <span>Chat</span>
+                    </div>
+                </div>
+                <div class="main_controls_block">
+                    <div class="main_controls_button">
+                        <span class="button leave-meeting"> <a href="leavemeeting.html" style="color: white;">Leave
+                                meeting</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_right" id="chat">
+            <div class="main_header">
+                <h6>CHAT</h6>
+            </div>
+            <div class="main_chat_window">
+                <ul class="messages">
+
+                </ul>
+            </div>
+            <div class="main_message_container">
+                <input id="chat-message" type="text" placeholder="Type message here...">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
