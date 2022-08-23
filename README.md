@@ -16,4 +16,8 @@ The main objective of this project is to build a Real-Time Video Chat Web Applic
 
 **We have deployed our Real-Time Video Chat Web Application on Heroku App. The Heroku App link which is generated during the deployment can be used by other users to join the server on which the WebRTC has been deployed.**
 
+Password to access the application:
+dcn123
+
+Check out the project:
 https://fathomless-cliffs-47472.herokuapp.com/
