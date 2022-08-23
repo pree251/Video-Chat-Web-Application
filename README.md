@@ -13,11 +13,11 @@ The main objective of this project is to build a Real-Time Video Chat Web Applic
 
 5.	CSS - CSS is used to add style to a webpage by dictating how a site is displayed on a browser.
 
+**Password to access the application:
+dcn123**
 
-**We have deployed our Real-Time Video Chat Web Application on Heroku App. The Heroku App link which is generated during the deployment can be used by other users to join the server on which the WebRTC has been deployed.**
 
-Password to access the application:
-dcn123
+**The Real-Time Video Chat Web Application has been deployed on Heroku App. The Heroku App link which is generated during the deployment can be used by other users to join the server on which the WebRTC has been deployed.**
 
 Check out the project:
 https://fathomless-cliffs-47472.herokuapp.com/
