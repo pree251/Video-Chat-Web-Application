@@ -1,4 +1,4 @@
-# Video-Chat-Web-Application
+![image](https://github.com/pree251/Video-Chat-Web-Application/assets/68124103/db862855-60e6-4b1c-8237-8cc1cd587b74)# Video-Chat-Web-Application
 The main objective of this project is to build a Real-Time Video Chat Web Application using WebRTC, which will allow us to establish peer-to-peer connection between 2 or more browsers. This application should enable a chat/messaging option to the user and the user should also be able to stream his/her video and see the video streamed by the other users. Apart from the video streaming feature, the user should also be able to mute/unmute and turn on/turn off his/her video. To add more functionalities to the application, the option of changing the way the user’s video appears, i.e., the addition of filters/effects should be implemented in the application. Screen-sharing and screen-recording features are also available. 
 
 **Technologies Used**
@@ -15,6 +15,13 @@ The main objective of this project is to build a Real-Time Video Chat Web Applic
 
 **Password to access the application:
 dcn123**
+
+### Tech Stack Used:
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="41" width="60" alt="html5 logo"  />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="41" width="60" alt="css3 logo"  />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="41" width="60" alt="javascript logo"  />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="41" width="60" alt="nodejs logo"  />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="41" width="60" alt="express logo"  />
 
 
 **The Real-Time Video Chat Web Application has been deployed on Heroku App. The Heroku App link which is generated during the deployment can be used by other users to join the server on which the WebRTC has been deployed.**
