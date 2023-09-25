@@ -17,11 +17,14 @@ The main objective of this project is to build a Real-Time Video Chat Web Applic
 dcn123**
 
 ### Tech Stack Used:
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="41" width="60" alt="html5 logo"  />
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="41" width="60" alt="html5 logo"  />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="41" width="60" alt="css3 logo"  />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="41" width="60" alt="javascript logo"  />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="41" width="60" alt="nodejs logo"  />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="41" width="60" alt="express logo"  />
+</div>
+
 
 
 **The Real-Time Video Chat Web Application has been deployed on Heroku App. The Heroku App link which is generated during the deployment can be used by other users to join the server on which the WebRTC has been deployed.**
