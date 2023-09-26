@@ -1,6 +1,8 @@
 # Video-Chat-Web-Application
 The main objective of this project is to build a Real-Time Video Chat Web Application using WebRTC, which will allow us to establish peer-to-peer connection between 2 or more browsers. This application should enable a chat/messaging option to the user and the user should also be able to stream his/her video and see the video streamed by the other users. Apart from the video streaming feature, the user should also be able to mute/unmute and turn on/turn off his/her video. To add more functionalities to the application, the option of changing the way the user’s video appears, i.e., the addition of filters/effects should be implemented in the application. Screen-sharing and screen-recording features are also available. 
 
+---
+
 ### Tech Stack Used:
 <div>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="41" width="60" alt="html5 logo"  />
@@ -9,6 +11,8 @@ The main objective of this project is to build a Real-Time Video Chat Web Applic
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="41" width="60" alt="nodejs logo"  />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="41" width="60" alt="express logo"  />
 </div>
+
+---
 
 ### Why was this particular Tech stack used?
 
@@ -24,6 +28,8 @@ The main objective of this project is to build a Real-Time Video Chat Web Applic
 
 **Password to access the application:
 dcn123**
+
+---
 
 ### IMPLEMENTATION:
 
