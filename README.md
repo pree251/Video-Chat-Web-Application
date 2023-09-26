@@ -32,26 +32,34 @@ dcn123**
 ![image](https://github.com/pree251/Video-Chat-Web-Application/assets/68124103/4f53ebe1-20d0-4246-9da7-5a03e8015258)
 
 - When the user enters the wrong password, an alert message alerts the user that they have entered an Invalid Password:
+  
 ![image](https://github.com/pree251/Video-Chat-Web-Application/assets/68124103/cdc8b041-2870-484b-a9c1-af167025588e)
 
 - When the user enters the correct password, they can access the video chat web application as shown below. Three people have joined the video chat room and are able to communicate with one another:
+  
 ![image](https://github.com/pree251/Video-Chat-Web-Application/assets/68124103/9a615c05-9ad2-4cad-9038-861aeaf9758a)
 
 - Here, we have shown the implementation of the filters/effects feature (we have chosen B&W) and the implementation of our chat window where users can communicate with one another:
+  
 ![image](https://github.com/pree251/Video-Chat-Web-Application/assets/68124103/25fc6e0f-4e60-47ac-97e1-4b2ec90c8b3d)
 
 - Here, we have shown the implementation of the recording feature. When the user clicks on ‘start recording’, they are asked to choose which screen they want to record and then the recording starts immediately:
+  
 ![image](https://github.com/pree251/Video-Chat-Web-Application/assets/68124103/bfb44e00-2d9b-459d-a401-477ef4ca8fdd)
 
 - When the user clicks on ‘stop recording’, they are asked to enter a filename under which they wish to save the recording. Once that is done, the recording is saved under that name and downloaded immediately:
+  
 ![image](https://github.com/pree251/Video-Chat-Web-Application/assets/68124103/28786dca-a424-4e22-bad2-c58db190062c)
 
 - When the user clicks on ‘leave meeting’, they are redirected to this page where it gives them the option to either re-join the meeting or to return to the homepage. It also includes a star rating feedback for the user:
+  
 ![image](https://github.com/pree251/Video-Chat-Web-Application/assets/68124103/2941f354-9a36-45f9-9948-d6a333ca5ee5)
 
-<br>
-** The Real-Time Video Chat Web Application has been deployed on Heroku App. The Heroku App link which is generated during the deployment can be used by other users to join the server on which the WebRTC has been deployed. **
+---
 
-<br>
+The Real-Time Video Chat Web Application has been deployed on Heroku App. The Heroku App link which is generated during the deployment can be used by other users to join the server on which the WebRTC has been deployed.
+
+---
+
 Check out the project:
 https://fathomless-cliffs-47472.herokuapp.com/
