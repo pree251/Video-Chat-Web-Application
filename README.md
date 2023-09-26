@@ -28,6 +28,7 @@ dcn123**
 ### IMPLEMENTATION:
 
 - When the user runs the application, this is the first page that they can see - Homepage/Login page:
+
 ![image](https://github.com/pree251/Video-Chat-Web-Application/assets/68124103/4f53ebe1-20d0-4246-9da7-5a03e8015258)
 
 - When the user enters the wrong password, an alert message alerts the user that they have entered an Invalid Password:
@@ -49,7 +50,7 @@ dcn123**
 ![image](https://github.com/pree251/Video-Chat-Web-Application/assets/68124103/2941f354-9a36-45f9-9948-d6a333ca5ee5)
 
 <br>
-**The Real-Time Video Chat Web Application has been deployed on Heroku App. The Heroku App link which is generated during the deployment can be used by other users to join the server on which the WebRTC has been deployed.**
+** The Real-Time Video Chat Web Application has been deployed on Heroku App. The Heroku App link which is generated during the deployment can be used by other users to join the server on which the WebRTC has been deployed. **
 
 <br>
 Check out the project:
